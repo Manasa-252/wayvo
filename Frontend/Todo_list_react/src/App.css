@@ -1,0 +1,178 @@
+/* .App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+ body{
+  background: linear-gradient(140deg, rgb(0, 30, 224) 0%, rgb(255, 2, 175) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(4, 18, 224);
+ }
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #282c34;
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px;
+  background-color: rgb(0, 30, 224);
+  color: #ffffff;
+}
+.login button:hover, .signup button:hover{
+  background-color:rgb(255, 2, 175);
+  color: #ffffff;
+}
+h1{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup{
+  border: 2px;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 20px #1e1c1c;
+  border-radius: 10px;
+  margin:0 0 10px 0;
+}
+.login{
+  border: 2px;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 20px #1e1c1c;
+  border-radius: 10px;
+  margin:0 0 10px 0;
+}
+.home{
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #1e1c1c;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgb(0, 0, 0);
+}
+.home a{
+  margin: 10px;
+  padding: 10px;
+  border: 2px;
+  background-color: blue;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.home a:hover{
+  background-color: rgb(255, 2, 175);
+  color: #ffffff;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.btns a{
+  margin: 5px;
+  padding: 8px;
+  border: 2px none;
+  border-radius: 5px;
+  /* background-color: rgb(255, 255, 255); */
+  color: #ffffff;
+  /* text-decoration: none; */
+}
+.btns a:hover{
+  background-color: rgb(0, 30, 224);
+  color: #ffffff;
+}
+.todo{
+  border: 2px;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 20px #1e1c1c;
+  border-radius: 10px;
+  margin:0 0 10px 0;
+
+}
+.todo form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border: 2px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 20px #1e1c1c;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.remove{
+  background-color: red;
+  color: #ffffff;
+  border: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.edit{
+  background-color: green;
+  color: #ffffff;
+  border: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.todo_list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo_list li .tasks{
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
