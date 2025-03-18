@@ -1,0 +1,74 @@
+body{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.app {
+  
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgb(103, 103, 103);
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Form */
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.note-form input, .note-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-form button {
+  background-color: rgb(255, 72, 0);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Notes */
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.note-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.note-item:hover {
+  transform: translateY(-5px);
+}
+
+.actions button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  opacity: 0.8;
+}
